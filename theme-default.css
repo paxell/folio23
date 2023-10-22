@@ -1,0 +1,26 @@
+body {
+    background: #010038;
+    color: #fff;
+}
+a {
+    color: #6C9BE9;
+}
+    a:hover {
+        color: #fff;
+    }
+h1, h2 {
+    color: #F39422;
+}
+img {
+    border-color: #fff;
+}
+a.button {
+    border-color: #6C9BE9;
+    color: #fff;
+}
+    a.button:hover {
+        border-color: #fff;
+    }
+footer {
+    border-color: #F39422;
+}

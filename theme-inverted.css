@@ -1,0 +1,15 @@
+body {
+    color: #010038;
+}
+a {
+    color: #293A80;
+}
+    a:hover {
+        color: #1E5F6D;
+    }
+.hero, h2 {
+    color: #1E5F6D;
+}
+a.button, footer {
+    border-color: #1E5F6D;
+}
