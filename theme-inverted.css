@@ -5,11 +5,17 @@ a {
     color: #293A80;
 }
     a:hover {
-        color: #1E5F6D;
+        color: #943959;
+    }
+a.logo {
+    background: url(https://lh3.googleusercontent.com/pw/ADCreHeHSMLxftg_Yd2Y1vW4VQyG0caQSs1bsCNqrXbEnWsCCdscdA1I4VvloaxWYKKNaOM-5Pr7MnWgGjnzWa0LhqQY_ObaRVuyK2GcgTcV4Galf8KSop1tialt0_XG6uwX2SCT2d_lgNBRasLvW5KT1gUv=w48-h48-s-no?authuser=0);
+}
+    a.logo:hover {
+        background: url(https://lh3.googleusercontent.com/pw/ADCreHefPZhNoE0VUYvaLrTFEACokZ7CA-j67QtFsWweqJVvq_kyuPK8RKA65kRQrkKX126KSbzw64Zq8Fa5ClWH9jZQ2mg9bLXYwTCdVRAG1KQ9QXmkiHAMBVqXmuh2Nj6D51gZvUfpuv9rF79xu_9KKPU5=w48-h48-s-no?authuser=0);
     }
 .hero, h2 {
-    color: #1E5F6D;
+    color: #943959;
 }
 a.button, footer {
-    border-color: #1E5F6D;
+    border-color: #943959;
 }

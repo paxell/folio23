@@ -25,6 +25,8 @@ header {
     }
     .sidebar {
         width: 20%;
+        position: fixed;
+        right: 5%;
     }
 footer {
     border-top: 2px dashed;
@@ -41,25 +43,36 @@ body {
 }
 nav ul li, .sidebar ul li, footer ul li {
     list-style-type: none;
+}
+nav ul li, .sidebar ul li, footer ul li, a.logo {
     margin-right: 1rem;
+}
+a.logo {
+    display: block; 
+    width: 48px;
+    height: 48px;
+    text-decoration: none;
 }
 h1 {
 	font-size: 3rem;
     line-height: 3.5rem;
     margin-bottom: 2rem;
+    font-weight: 400;
 }
 h1, li a, .hero, .button {
 	font-family: 'Oswald', sans-serif;
 }
-h2 {
-    font-weight: 300;
+li a, .button {
+	font-family: 'Oswald', sans-serif;
     font-size: 1.5rem;
     line-height: 2rem;
+}
+h2 {
+    font-weight: 700;
     margin-bottom: 1.5rem;
 }
 li a, a.button {
     text-decoration: none;
-    line-height: 1rem;
 }
 .button {
     border-radius: 0.5rem;
@@ -69,17 +82,18 @@ nav ul li a, .button {
     display: inline-block;
     padding: 0.5rem 1rem;
 }
-.hero {
-    font-size: 1.5rem;
-    line-height: 2rem;
+.hero, .h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
 }
-p, .container img {
+p {
     margin-bottom: 1.5rem;
 }
 .container img {
     border: 1px solid;
     display:inline-block;
     margin-right: 1.5rem;
+    max-width: 100%;
 }
 
 /* Breakpoints */

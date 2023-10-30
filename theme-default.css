@@ -1,12 +1,18 @@
 body {
-    background: #010038;
     color: #fff;
+    background: #010038;
 }
 a {
     color: #6C9BE9;
 }
     a:hover {
         color: #fff;
+    }
+a.logo {
+    background: url(https://lh3.googleusercontent.com/pw/ADCreHe2xeyls6qF6Wu34FUE0X-GQe_IeGzOhU6IIXdusnOmUWOioP4SGAOXiX-Vm-CsmMwdkbAo46dR-tzMoY8mg_Xd78uiqTDuqGUCK-1PRbhkAEK8_Rduq29PDu4qO1BGOk8aDdorQOMETbATPFkfz7Qx=w48-h48-s-no?authuser=0);
+}
+    a.logo:hover {
+        background: url(https://lh3.googleusercontent.com/pw/ADCreHe165hQVzKeI7oVYempr4BarqdcHekPqMJTtzr_hzvl_Fr7Oyy742zyCyCk2aJra43lZMHNrEXodB2rq-P250qU1KU8KOl5KPCzPZujn_PzWCKDZmkq5WdbMB2nRu-KSKJy72KDnW6Hr0GrtGnDwLGB=w48-h48-s-no?authuser=0);
     }
 h1, h2 {
     color: #F39422;
