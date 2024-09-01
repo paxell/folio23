@@ -1,0 +1,30 @@
+body {
+    color: #D4D4D4;
+    background: #000;
+    font-family: 'Inter', sans-serif;
+}
+h1, li a, .hero, .button {
+	font-family: 'Glegoo', serif;
+}
+a {
+    color: #A7A7A7;
+}
+    a:hover {
+        color: #fff;
+    }
+h1, h2 {
+    color: #fff;
+}
+img {
+    border-color: #fff;
+}
+a.button {
+    border-color: #A7A7A7;
+    color: #fff;
+}
+    a.button:hover {
+        border-color: #fff;
+    }
+footer {
+    border-color: #A7A7A7;
+}
