@@ -81,6 +81,10 @@ p, .container img {
     display:inline-block;
     margin-right: 1.5rem;
 }
+.mini {
+    width: 40%;
+    margin: 6rem auto;
+}
 
 /* Breakpoints */
 
